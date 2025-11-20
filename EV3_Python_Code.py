@@ -53,7 +53,7 @@ def keyboard_thread():
 # _thread.start_new_thread(keyboard_thread, ())
 
 ev3.speaker.beep()
-print('🤖 Running robot...')
+print('Running Robot...')
 
 # --- Main Loop ---
 try:
@@ -137,7 +137,7 @@ try:
         wait(50)
 
 except KeyboardInterrupt:
-    print('🛑 Stopping robot...')
+    print('Stopping Robot...')
     left_motor.stop()
     right_motor.stop()
     claw_motor.stop()
